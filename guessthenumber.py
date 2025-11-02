@@ -1,5 +1,5 @@
 import random
-print("Let's pay a guessing game with me to pass time!")
+print("Let's plap a guessing game with me to pass time!")
 random_number=random.randint(1,100)
 guess_attempts=0
 while True:
@@ -11,5 +11,6 @@ while True:
     elif guess<random_number:
             print("Try for bigger number")
     else:
-        print("Try for lowwer number ")
+        print("Try for lower number ")
                 
+
